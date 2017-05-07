@@ -55,22 +55,22 @@ class RemoteKey
     {0xA7315F7D, Action::smooth}
   }
   const std::map<uint32_t, Color> colorKeyMap = {
-    {E85952E1, Color::},
-    {D3FD9A81, Color::},
-    {84044BBD, Color::},
-    {B0F9B3E1, Color::},
-    {9DE75E1D, Color::},
-    {78CDA4DD, Color::},
-    {6471EC7D, Color::},
-    {14789DB9, Color::},
-    {416E05DD, Color::},
-    {F794B621, Color::},
-    {A2672345, Color::},
-    {9D53009D, Color::},
-    {3E121C21, Color::},
-    {6A844445, Color::},
-    {57F52E81, Color::},
-    {9BA392C1, Color::}
+    {E85952E1, Color::red},
+    {D3FD9A81, Color::red_orange},
+    {84044BBD, Color::orange},
+    {B0F9B3E1, Color::yellow_orange},
+    {9DE75E1D, Color::yellow},
+    {78CDA4DD, Color::green},
+    {6471EC7D, Color::yellow_green},
+    {14789DB9, Color::caribbean_green},
+    {416E05DD, Color::cyan},
+    {F794B621, Color::java},
+    {A2672345, Color::blue},
+    {9D53009D, Color::blue_violet},
+    {3E121C21, Color::purple},
+    {6A844445, Color::magenta},
+    {57F52E81, Color::rose},
+    {9BA392C1, Color::white}
   }
   
   int initializeRemote(int pin);
